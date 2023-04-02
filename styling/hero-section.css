@@ -1,19 +1,31 @@
 .hero {
-   
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    max-width: 75%;
+    min-height: 35rem;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+  }
+
+  .hero .container {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
+  .hero .container img {
+    max-width: 85%;
+
+  }
   
   .hero-content {
-    max-width: 800px;
+    max-width: 40%;
     margin: 0 auto;
     text-align: center;
     color: #40513B;
-    
+  }
+
+  .hero .container div:nth-child(2) {
+    max-width: 40%;
   }
   
   .hero h1 {
@@ -22,7 +34,7 @@
   }
   
   .hero p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 40px;
   }
   
@@ -41,4 +53,19 @@
   .btn:hover {
     background-color: #9DC08B;
     color: #fff;
+  }
+
+  @media (max-width: 800px) {
+    .hero {
+      max-width: 100%;
+    }
+    .hero .container {
+      flex-direction: column-reverse;
+    }
+
+    .hero .container img,
+    .hero-content {
+      max-width: 100%;
+    }
+
   }
