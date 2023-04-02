@@ -1,5 +1,5 @@
 nav {
-    min-height: 5rem;
+    min-height: 3.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,6 +47,12 @@ nav {
   @media (max-width: 768px) {
     .menu-toggle {
       display: block;
+    }
+
+    .menu-toggle i {
+      text-align: center;
+      display:flex ;
+      align-items: center;
     }
     .menu {
       display: none;
