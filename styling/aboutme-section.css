@@ -1,0 +1,98 @@
+/* Desktop styles */
+#about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    max-width: 100%;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  #about .container {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  
+  #about img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin:0 .5rem 1rem .5rem;
+  }
+  
+  #about h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #about ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #about li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  #about a.btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1.2rem;
+    margin: 0 auto;
+    max-width: 10rem;
+    text-align: center;
+
+  }
+  
+  #about a.btn:hover {
+    background-color: #555;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 767px) {
+    #about {
+      padding: 30px 0;
+    }
+  
+    #about h2 {
+      font-size: 24px;
+    }
+  
+    #about img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    #about p {
+      font-size: 16px;
+    }
+  
+    #about h3 {
+      font-size: 20px;
+    }
+  
+    #about li {
+      font-size: 16px;
+    }
+  
+    #about a.btn {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
