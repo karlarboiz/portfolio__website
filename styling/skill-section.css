@@ -29,6 +29,7 @@
 
   .skill div {
     max-width: 50%;
+    margin: 0 .5rem;
   }
   
   .skill-content {

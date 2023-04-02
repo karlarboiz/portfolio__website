@@ -1,5 +1,5 @@
 .hero {
-    background-image: url('../images/hero/hero-bg.jpg');
+   
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -12,7 +12,7 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    color: #fff;
+    color: #40513B;
     
   }
   
