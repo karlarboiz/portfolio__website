@@ -49,15 +49,17 @@
     padding: 10px 20px;
     border: none;
     border-radius: 1.2rem;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 18px;
+    background-color: #EDF1D6;
+    color: #40513B;
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   button[type="submit"]:hover {
-    background-color: #0062cc;
+    background-color: #9DC08B;
+    color: aliceblue;
   }
   
   @media screen and (max-width: 768px) {
