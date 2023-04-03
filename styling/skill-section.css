@@ -46,10 +46,10 @@
     color: #333;
   }
 
-
-  
   .skill p {
     margin: 0;
+    font-size: 1.15rem;
+    padding: .5rem 0;
     color: #666;
   }
 
