@@ -1,5 +1,5 @@
 .hero {
-    max-width: 80%;
+    max-width: 70%;
     min-height: 35rem;
    margin: 0 auto;
    display: flex;
@@ -14,19 +14,19 @@
   }
 
   .hero img {
-    max-width: 90%;
+    max-width: 85%;
 
   }
   
   .hero-content {
-    max-width: 60%;
+    max-width: 55%;
     margin: 0 auto;
     
     color: #40513B;
   }
 
   .hero .container div:nth-child(2) {
-    max-width: 40%;
+    max-width: 45%;
   }
   
   .hero h1 {
