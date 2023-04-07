@@ -43,6 +43,8 @@ nav {
   .menu-visible li {
     margin: 0 10px;
   }
+
+
   
   #menu a {
     color: aliceblue;
@@ -67,20 +69,23 @@ nav {
     
     }
 
+    nav {
+      position: relative;
+    }
+
     .menu-show {
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 50px;
+      top: 40px;
       left: 0;
       width: 100%;
       background-color: #333;
       padding: 10px 0;
-      
     }
 
     .menu-show li {
-      margin: .75rem 0;
+      margin: .75rem .50rem;
     }
     .menu li {
       margin: 10px 0;
