@@ -5,12 +5,29 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   position: relative;
+   overflow: hidden;
+   z-index: 5;
   }
+
+.hero::before {
+  content: "";
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  left: 15rem;
+  top:5%;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  background-color: #40513B;
+  z-index: -1;
+  transform: rotate(-40deg);
+}
 
   .hero .container {
     display: flex;
     align-items: center;
     justify-content:space-around;
+    
   }
 
   .hero img {
