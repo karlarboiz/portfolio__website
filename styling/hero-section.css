@@ -10,7 +10,7 @@
    z-index: 5;
   }
 
-/* .hero::before {
+.hero::before {
   content: "";
   height: 20rem;
   width: 20rem;
@@ -18,10 +18,10 @@
   left: 15rem;
   top:5%;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-  background-color: #40513B;
+  background-color: #d6e0d3fa;
   z-index: -1;
   transform: rotate(-40deg);
-} */
+}
 
   .hero .container {
     display: flex;
