@@ -6,19 +6,19 @@ main {
 
 nav {
   
-    min-height: 3.5rem;
+    min-height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
    
-    max-width: 60rem;
+    max-width: 75rem;
     margin: 0 auto;
    
   }
 
   .logo a {
     color:aliceblue;
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     padding-left: .5rem;
     font-weight: 700;
     text-decoration: none;
@@ -49,8 +49,8 @@ nav {
   #menu a {
     color: aliceblue;
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 1.25rem;
+    font-weight: 400;
   }
   /*  */
   @media (max-width: 768px) {
@@ -77,10 +77,10 @@ nav {
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 40px;
+      top: 48px;
       left: 0;
       width: 100%;
-      background-color: #333;
+      background-color:#40513B;
       padding: 10px 0;
     }
 

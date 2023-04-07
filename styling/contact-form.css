@@ -47,12 +47,12 @@
   button[type="submit"] {
     display: block;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 20px 25px;
     border: none;
-    border-radius: 1.2rem;
+    border-radius: 2.5rem;
     background-color: #EDF1D6;
     color: #40513B;
-    font-size: 1rem;
+    font-size: 1.05rem;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease;

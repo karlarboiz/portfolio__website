@@ -10,23 +10,23 @@
   .hero .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
   }
 
-  .hero .container img {
+  .hero img {
     max-width: 90%;
 
   }
   
   .hero-content {
-    max-width: 40%;
+    max-width: 60%;
     margin: 0 auto;
-    text-align: center;
+    
     color: #40513B;
   }
 
   .hero .container div:nth-child(2) {
-    max-width: 60%;
+    max-width: 40%;
   }
   
   .hero h1 {
@@ -36,12 +36,12 @@
   
   .hero p {
     font-size: 1.15rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   
   .btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 20px 25px;
     background-color: #EDF1D6;
     color: #40513B;
     border-radius: 2.5rem;
@@ -62,11 +62,15 @@
     }
     .hero .container {
       flex-direction: column-reverse;
+      text-align: center;
     }
 
-    .hero .container img,
     .hero-content {
-      max-width: 100%;
+      max-width: 80%;
+    }
+
+    .hero img {
+      max-width: 90%;
     }
 
   }
